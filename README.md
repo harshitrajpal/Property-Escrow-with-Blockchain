@@ -24,3 +24,6 @@ The project serves as a final submission for the CSGY9223 A Introduction to Bloc
     <br>image_path VARCHAR(255),
     <br>FOREIGN KEY (user_id) REFERENCES users(id)
 <br>);
+<br>
+<br>sudo systemctl stop mysql
+<br>sudo mysqld_safe --skip-grant-tables &
