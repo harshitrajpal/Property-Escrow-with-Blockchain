@@ -1,21 +1,22 @@
 # Property-Escrow-with-Blockchain
+The project serves as a final submission for the CSGY9223 A Introduction to Blockchain and Distributed Ledger Technology. The project demonstrates a system where a user can upload a real estate listing, verify it with blockchain adn then enforce an escrow smart contract for the buyer. The solution describes a secure and verifiable real estate sale/purchase solution
 
-# Set up steps
-## Setting up MySQL first
+## Setting up the project
+<h3>Setting up MySQL first</h3>
 
 <br>apt-get install mysql-server
-<br>sudo systemctl start mysqld
+<br><br>sudo systemctl start mysqld
 <br>sudo systemctl enable mysqld
-<br>mysql -u root -p
+<br><br>mysql -u root -p
 <br>CREATE DATABASE smartestate;
 <br>USE smartestate;
-<br>CREATE TABLE users (
+<br><br>CREATE TABLE users (
     <br>id INT AUTO_INCREMENT PRIMARY KEY,
     <br>username VARCHAR(50) NOT NULL UNIQUE,
     <br>password VARCHAR(255) NOT NULL,
     <br>account VARCHAR(255) NOT NULL UNIQUE
 <br>);
-<br>CREATE TABLE properties (
+<br><br>CREATE TABLE properties (
     <br>id INT AUTO_INCREMENT PRIMARY KEY,
     <br>user_id INT,
     <br>address VARCHAR(255) NOT NULL,
