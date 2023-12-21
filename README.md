@@ -30,3 +30,9 @@ The project serves as a final submission for the CSGY9223 A Introduction to Bloc
 <br>FLUSH PRIVILEGES;
 <br>EXIT;
 
+<br>mysql -u hex -p smartestate
+<br>->password: 123
+
+<br><br><b>Make sure the third input is the valid test ethereum wallet address!</b>
+<br>INSERT INTO users (username, password, account) VALUES ('alice', '123', '0x78fA07....g46aA2');
+<br>INSERT INTO users (username, password, account) VALUES ('bob', '12345', '0x5b437b8fA07...f864a2A');
