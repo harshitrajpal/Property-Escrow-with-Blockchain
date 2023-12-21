@@ -1,7 +1,7 @@
 # Property-Escrow-with-Blockchain
 
-#Set up steps
-##Setting up MySQL first
+# Set up steps
+## Setting up MySQL first
 
 apt-get install mysql-server
 sudo systemctl start mysqld
