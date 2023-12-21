@@ -25,5 +25,8 @@ The project serves as a final submission for the CSGY9223 A Introduction to Bloc
     <br>FOREIGN KEY (user_id) REFERENCES users(id)
 <br>);
 <br>
-<br>sudo systemctl stop mysql
-<br>sudo mysqld_safe --skip-grant-tables &
+<br>CREATE USER 'hex'@'localhost' IDENTIFIED BY '123';
+<br>GRANT ALL PRIVILEGES ON smartestate.* TO 'hex'@'localhost';
+<br>FLUSH PRIVILEGES;
+<br>EXIT;
+
