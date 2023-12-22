@@ -8,7 +8,7 @@ The project serves as a final submission for the CSGY9223 A Introduction to Bloc
 <br>apt-get install mysql-server
 <br>apt install apache2
 <br>apt install php
-<br>cd /vvar/www/html
+<br>cd /var/www/html
 <br>mkdir image_uploads
 <br>mkdir registry_uploads
 <br><br>sudo systemctl start mysqld
