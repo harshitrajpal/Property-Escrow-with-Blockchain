@@ -1,10 +1,16 @@
 # Property-Escrow-with-Blockchain
 The project serves as a final submission for the CSGY9223 A Introduction to Blockchain and Distributed Ledger Technology. The project demonstrates a system where a user can upload a real estate listing, verify it with blockchain adn then enforce an escrow smart contract for the buyer. The solution describes a secure and verifiable real estate sale/purchase solution
 ![Credits- DALL.E](https://github.com/harshitrajpal/Property-Escrow-with-Blockchain/blob/main/photo.png)
-## Setting up the project
-<h3>Setting up MySQL first</h3>
 
+## Setting up the project
+<h3>Setting up the requirementst</h3>
+<h5>Automated Databse setup coming soon...</h5>
 <br>apt-get install mysql-server
+<br>apt install apache2
+<br>apt install php
+<br>cd /vvar/www/html
+<br>mkdir image_uploads
+<br>mkdir registry_uploads
 <br><br>sudo systemctl start mysqld
 <br>sudo systemctl enable mysqld
 <br><br>mysql -u root -p
