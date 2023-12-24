@@ -30,6 +30,7 @@ The project serves as a final submission for the CSGY9223 A Introduction to Bloc
     <br>image_path VARCHAR(255),
     <br>paper_hash VARCHAR(255),
     <br>paper_path VARCHAR(255),
+    <br>wallet_addr VARCHAR(255),
     <br>FOREIGN KEY (user_id) REFERENCES users(id)
 <br>);
 <br>
