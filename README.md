@@ -1,4 +1,5 @@
 # Property-Escrow-with-Blockchain
+Technologies: Ethereum, IERC-20 tokens, Solidity, PHP, JavaScript, HTML, SQL
 The project serves as a final submission for the CSGY9223 A Introduction to Blockchain and Distributed Ledger Technology. The project demonstrates a system where a user can upload a real estate listing, verify it with blockchain adn then enforce an escrow smart contract for the buyer. The solution describes a secure and verifiable real estate sale/purchase solution
 ![Credits- DALL.E](https://github.com/harshitrajpal/Property-Escrow-with-Blockchain/blob/main/photo.png)
 
